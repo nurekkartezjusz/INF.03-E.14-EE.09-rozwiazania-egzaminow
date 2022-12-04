@@ -1,0 +1,37 @@
+*{
+    font-family: Helvetica;
+    margin: 0px;
+}
+
+#baner_l, #blok_l{
+    background-color: rgb(130, 69, 85);
+    color: white;
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#baner_p, #blok_p{
+    background-color: rgb(130, 69, 85);
+    color: white;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    float: left;
+}
+
+#main, #stopka{
+    background-color: rgb(240, 234, 226);
+    padding: 120px;
+}
+
+td, table{
+    border: 1px solid rgb(130, 69, 85);
+    color: rgb(130, 69, 85);
+    padding: 10px;
+}
+
+a{
+    color: rgb(240, 234, 226);
+}

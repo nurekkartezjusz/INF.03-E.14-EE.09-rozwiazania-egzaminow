@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styl3.css">
+    <title> Stacja paliw </title>
+    <script>
+        function obliczenia(){
+            var rodzaj = document.getElementById('rodzaj').value;
+            var litry = document.getElementById('litry').value;
+            if (rodzaj==1) {
+                var wynik = litry * 4;
+            } else if(rodzaj==2){
+                var wynik = litry * 3.5;
+            } else{
+                var wynik = litry * 0;
+            }
+            document.getElementById('wynik').innerHTML = "koszt paliwa: " + wynik + " zł";
+        }
+    </script>
+</head>
+<body>
+    <div id="baner_l">
+        <h1> Stacja paliw </h1> 
+    </div>
+
+    <div id="baner_p">
+        <a href="stacja.html"> <img src="home.png"> </a>
+        <a href="obliczenia.html"> <img src="znak.png"> </a> 
+    </div>
+
+    <div id="main">
+        <h3> Oblicz koszt paliwa </h3>
+        <label> Rodzaj paliwa (1 - benzyna, 2- olej napędowy): </label> <br>
+        <input type="number" id="rodzaj"> <br>
+        <label> Ile litrów </label> <br>
+        <input type="number" id="litry"> <br>
+        <button type="submit" name="oblicz" onclick="obliczenia()"> OBLICZ </button>
+        <p id="wynik"> </p> 
+    </div>
+
+    <div id="blok_l">
+        <a href="kwerendy.txt"> Pobierz kwerendy </a>
+    </div>
+
+    <div id="blok_p">
+        <img src="samochod.png" alt="samochod">
+    </div>
+
+    <div id="stopka">
+        <p> Stronę opracowała: Agnieszka Hejduk </p> 
+    </div>
+</body>
+</html>
