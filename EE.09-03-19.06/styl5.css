@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    font-family: Tahoma;
+}
+
+#blok_l, #blok_p{
+    background-color: rosybrown;
+    color: white;
+    width: 30%;
+    height: 200px;
+    float: left;
+}
+
+#blok_s{
+    background-color: rosybrown;
+    color: white;
+    width: 40%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+#main{
+    background-color: wheat;
+    padding: 50px;
+}
+
+#footer{
+    background-color: rosybrown;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+a{
+    border: solid 2px darkred;
+    background-color: salmon;
+    color: darkred;
+    padding: 20px;
+    line-height: 200px;
+}
