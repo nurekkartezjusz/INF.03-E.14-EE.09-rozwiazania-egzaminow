@@ -29,7 +29,7 @@
     </div>
 
     <div id="stopka">
-        <p> Stronę wykonała: Agnieszka Hejduk </p>
+        <p> Stronę wykonał: nurekkartezjusz </p>
     </div>
 </body>
 </html>
